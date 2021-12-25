@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/post', [\App\Http\Controllers\PostController::class, 'index']);
+Route::get('/calculate', [\App\Http\Controllers\CalculateController::class, 'index']);
